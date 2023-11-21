@@ -36,7 +36,7 @@ class User():
         - `None` if `pwd` is `None`
         - `None` if `pwd` is not a string
         - Hash `pwd` in MD5 before assign to `__password`
-        - Fixed error self._password,line 44
+        - Fixed error ._password to .__password,line 44
         """
         if pwd is None or type(pwd) is not str:
             self.__password = None
@@ -56,7 +56,6 @@ class User():
             return False
         if self.__password is None:
             return False
-        else:
         return hashlib.md5(pwd.encode()).hexdigest().lower() == self.__password
 
 
