@@ -89,4 +89,3 @@ Yes please! See the [contributing guidelines][contributing] for details.
 
 [appveyor-badge]: https://ci.appveyor.com/api/projects/status/ylitpyo6n5yq1s6i/branch/master?svg=true
 [appveyor]: https://ci.appveyor.com/project/react-bootstrap/react-bootstrap/branch/master
-
